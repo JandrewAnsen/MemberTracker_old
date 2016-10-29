@@ -7,14 +7,14 @@
 //
 
 import Foundation
-public enum GenderEnum: Int{
+public enum GenderEnum: UInt{
     case Unspecified = 0
     case Female = 1
     case Male = 2
     case NonbinaryOther = 3
 }
 
-public enum LocationEnum: Int{
+public enum LocationEnum: UInt{
     case Unspecified = 0
     case EastKamiyama = 1
     case WestKamiyama = 2

@@ -25,7 +25,7 @@ class ViewController: NSViewController {
     }
 
     @IBAction func FindMember_Clicked(sender: AnyObject) {
-        var members = Queries.GetAllMembers()
+        var me = Queries.GetMember(1)
         
     }
 
