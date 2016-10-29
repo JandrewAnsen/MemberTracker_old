@@ -961,8 +961,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="butEnterMember_Clicked:" target="5gI-5U-AMq" id="hqL-ON-Zrg"/>
-                                    <segue destination="cKF-AG-seo" kind="modal" id="nMg-3A-HaS"/>
+                                    <action selector="FindMember_Clicked:" target="5gI-5U-AMq" id="Hte-Qo-sOJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1113,7 +1112,7 @@
                                                     </subviews>
                                                 </clipView>
                                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="KxN-mY-LA4">
-                                                    <rect key="frame" x="1" y="514" width="447" height="16"/>
+                                                    <rect key="frame" x="1" y="570" width="497" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </scroller>
                                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="iai-0y-kpN">
@@ -1232,7 +1231,7 @@
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="Rty-22-OQ7" viewBased="YES" id="Muh-tn-Esr">
-                                                            <rect key="frame" x="0.0" y="0.0" width="610" height="0.0"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="610" height="317"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <size key="intercellSpacing" width="3" height="2"/>
                                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1316,7 +1315,7 @@
                                                         </tableView>
                                                     </subviews>
                                                 </clipView>
-                                                <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="8dt-5A-HJE">
+                                                <scroller key="horizontalScroller" verticalHuggingPriority="750" doubleValue="0.8125" horizontal="YES" id="8dt-5A-HJE">
                                                     <rect key="frame" x="1" y="324" width="602" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </scroller>
@@ -1357,7 +1356,4 @@
             <point key="canvasLocation" x="193" y="793"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="joe-L6-adb"/>
-    </inferredMetricsTieBreakers>
 </document>

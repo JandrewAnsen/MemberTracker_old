@@ -13,6 +13,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Queries.Connect()
 
         // Do any additional setup after loading the view.
     }
@@ -23,6 +24,10 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func FindMember_Clicked(sender: AnyObject) {
+        var members = Queries.GetAllMembers()
+        
+    }
 
 }
 
